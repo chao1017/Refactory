@@ -51,13 +51,13 @@ namespace TestRefactory
             this.txtBoxResult.Text = result;
         }
 
-        private enum VerifyStatus
-        {
-            None = 0,
-            Passed,
-            Failed,
-            NotExist
-        }
+        //private enum VerifyStatus
+        //{
+        //    None = 0,
+        //    Passed,
+        //    Failed,
+        //    NotExist
+        //}
 
         private VerifyStatus VerifypasswordById(string id, string password)
         {

@@ -13,6 +13,8 @@
         <asp:Label ID="lblUserName" runat="server" Text="帳號"></asp:Label>
 &nbsp;
         <asp:TextBox ID="txtBoxUserName" runat="server"></asp:TextBox>
+        &nbsp;&nbsp;
+        <asp:HyperLink ID="hyperLinkChangePwd" runat="server" NavigateUrl="~/ResetPassword.aspx" Target="_blank">修改密碼</asp:HyperLink>
         <br />
         <br />
         <asp:Label ID="lblPassword" runat="server" Text="密碼"></asp:Label>
